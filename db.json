@@ -1,0 +1,52 @@
+{
+    "planes": [
+        {
+            "id": 0,
+            "make": "Arado",
+            "model": "Ar 234",
+            "powerplant": [{
+                "number": 2,
+                "make": "Junker", 
+                "model": ["Jumo 004B"],
+                "type": "turbojet",
+                "cylinders": 0,
+                "forced_induction": "no"
+            }],
+            "performance": [
+                {
+                    "max_speed": 460,
+                    "ceiling": 32810,
+                    "range": 1013
+                }
+            ],
+            "weight": [
+                {
+                    "empty": 11464,
+                    "max": 21715
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "make": "Avro",
+            "model": "Lancaster",
+            "powerplant": [
+                {
+                    "number": 4,
+                    "make": "Rolls Royce",
+                    "model": ["Merlin XX", "Merlin 22", "Merlin 24"],
+                    "type": "Vee",
+                    "cylinders": 12,
+                    "forced_induction": "supercharger"
+                }
+            ],
+            "performance": [
+                {
+                    "max_speed": 275,
+                    "ceiling": 20000,
+                    "range": 1040
+                }
+            ]
+        }
+    ]
+}
