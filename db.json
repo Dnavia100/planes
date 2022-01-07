@@ -4,14 +4,16 @@
             "id": 0,
             "make": "Arado",
             "model": "Ar 234",
-            "powerplant": [{
+            "powerplant": [
+                {
                 "number": 2,
                 "make": "Junker", 
                 "model": ["Jumo 004B"],
                 "type": "turbojet",
                 "cylinders": 0,
                 "forced_induction": "no"
-            }],
+                }
+            ],
             "performance": [
                 {
                     "max_speed": 460,
@@ -34,7 +36,23 @@
                 {
                     "number": 4,
                     "make": "Rolls Royce",
-                    "model": ["Merlin XX", "Merlin 22", "Merlin 24"],
+                    "model": "Merlin XX",
+                    "type": "Vee",
+                    "cylinders": 12,
+                    "forced_induction": "supercharger"
+                },
+                {
+                    "number": 4,
+                    "make": "Rolls Royce",
+                    "model": "Merlin 22",
+                    "type": "Vee",
+                    "cylinders": 12,
+                    "forced_induction": "supercharger"
+                },
+                {
+                    "number": 4,
+                    "make": "Rolls Royce",
+                    "model": "Merlin 24",
                     "type": "Vee",
                     "cylinders": 12,
                     "forced_induction": "supercharger"
